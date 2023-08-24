@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: aqua;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counters {
+  display: flex;
+  gap: 20px;
+}
+
+.counter {
+  border: 2px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  width: 100px;
+}
+
+.counter-label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.counter-items {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
